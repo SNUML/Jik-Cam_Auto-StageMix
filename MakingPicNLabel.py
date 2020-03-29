@@ -48,3 +48,5 @@ while True:
 	print('')
 	capture.release()
 	cv2.destroyAllWindows()
+
+	
