@@ -87,7 +87,7 @@ for ii in range(3):
             Label = np.append(Label,np.load('./_lblMixed_'+str(j)+'_'+str(ii)+'.npy'),axis=0)
 
     ImageNum = Picture.shape[0]
-    TestRatio = 0.1
+    TestRatio = 0.2
     TrainNum = int(float(ImageNum)*(1-TestRatio))
     batch_size = 10
 
